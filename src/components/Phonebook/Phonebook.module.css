@@ -1,0 +1,36 @@
+.phonebook {
+    margin-left: 10px;
+}
+
+.phonebook_container {
+    border: 5px solid rgb(0, 0, 0);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+.input {
+    width: 230px;
+
+}
+
+.phonebook_button {
+    width: 150px;
+    height: 25px;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+
+}
+
+.phonebook_button:hover {
+    opacity: 1;
+    background-color: rgb(130, 238, 186);
+}
+
+.label {
+    width: 200px;
+}
